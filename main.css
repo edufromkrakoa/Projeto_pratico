@@ -1,204 +1,180 @@
 /* Estilos Gerais */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #d32f2f;
-    color: white;
-    padding: 20px 0;
-    width: 100%;
-    text-align: center;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 28px;
-  }
-  
-  main {
-    width: 100%;
-    max-width: 900px;
-    padding: 20px;
-  }
-  
-  /* Ajustes da seção de conteúdo */
-  section {
-    margin-bottom: 30px;
-  }
-  
-  .content-wrapper {
-    display: flex;
-    flex-direction: row; /* Coloca a imagem e o texto lado a lado */
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap; /* Torna responsivo para telas menores */
-  }
-  
-  figure {
-    margin: 0;
-    text-align: center;
-    flex: 1; /* Ajusta proporcionalmente o tamanho da imagem */
-  }
-  
-  figure img {
-    width: 100%;
-    max-width: 350px; /* Limita o tamanho da imagem */
-    border-radius: 8px;
-  }
-  
-  figure figcaption {
-    margin-top: 5px;
-    font-size: 14px;
-    color: #666;
-  }
-  
-  .text-content {
-    flex: 2; /* O texto ocupa mais espaço */
-    text-align: justify;
-    max-width: 600px;
-  }
-  
-  .text-content h2 {
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .text-content p {
-    font-size: 16px;
-    color: #333;
-    margin-top: 10px;
-  }
-  
-  /* Rodapé */
-  footer {
-    margin-top: 30px;
-    max-width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    justify-content: center;
-  }
-  
-  /* Redes Sociais */
-.social-media {
-    flex: 1;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.social-media h3 {
-    margin-bottom: 15px;
-    font-size: 18px;
-    color: #333;
+header {
+  background-color: #d32f2f;
+  color: white;
+  padding: 20px 0;
+  width: 100%;
+  text-align: center;
 }
 
-.social-media .icons {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
 }
 
-.social-media .icons img {
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-    transition: transform 0.3s;
+/* Seção Principal */
+main {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
 }
 
-.social-media .icons img:hover {
-    transform: scale(1.1);
+/* Ajustes da seção de conteúdo */
+.content-wrapper {
+  display: flex;
+  flex-direction: row; /* Coloca a imagem e o texto lado a lado */
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Torna responsivo para telas menores */
 }
 
-  footer div {
-    flex: 1;
-    text-align: center;
-}
-  
-  footer h3 {
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-  
-  footer .social-media img {
-    max-width: 25px; /* Ajuste o tamanho */
-    max-height: 25px; /* Ajuste o tamanho */
-    object-fit: scale-down; /* Reduz tamanho mantendo proporção */
-}
-  
-  footer .social-media img:hover {
-    transform: scale(1.1);
-}
-  
-  footer .comments {
-    text-align: center;
+figure {
+  margin: 0;
+  text-align: center;
+  flex: 1; /* Ajusta proporcionalmente o tamanho da imagem */
 }
 
-  footer img {
-    width: 30px;
-    margin: 0 10px;
-    cursor: pointer;
+figure img {
+  width: 100%;
+  max-width: 350px; /* Limita o tamanho da imagem */
+  border-radius: 8px;
 }
-  
-footer textarea {
-    width: 100%;
-    max-width: 400px;
-    height: 50px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    resize: none;
-    box-shadow: none;
-    z-index: 999;
-    position: relative;
-    pointer-events: auto;
-  }
-  
-  footer button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #d32f2f;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  footer button:hover {
-    background-color: #b71c1c;
-  }
-  
+
+figure figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.text-content {
+  flex: 2; /* O texto ocupa mais espaço */
+  text-align: justify;
+  max-width: 600px;
+}
+
+.text-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.text-content p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Redes Sociais e Formulário de Contato */
+.social-contact {
+  display: flex;
+  flex-direction: row; /* Coloca as seções lado a lado */
+  justify-content: center; /* Centraliza as seções horizontalmente */
+  gap: 20px;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.social-section,
+.contact-section {
+  flex: 1;
+  text-align: center; /* Centraliza o texto dentro das seções */
+}
+
+/* Redes Sociais */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.1);
+}
+
+/* Formulário de Contato */
+.contact-methods {
+  max-width: 400px; /* Limita o formulário a uma largura menor */
+  margin: auto;
+}
+
+.contact-methods h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact-methods form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-methods input,
+.contact-methods textarea,
+.contact-methods button {
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-methods input,
+.contact-methods textarea {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.contact-methods textarea {
+  height: 50px;
+  resize: none;
+}
+
+.contact-methods button {
+  padding: 10px 15px;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-methods button:hover {
+  background-color: #b71c1c;
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
-    .content-wrapper {
-      flex-direction: column;
-    }
-    .text-content {
-      text-align: center;
-    }
-    footer {
-      flex-direction: column;
-    }
+  .social-contact {
+    flex-direction: column; /* Empilha as seções */
+    gap: 20px; /* Espaçamento menor entre elas */
   }
-  
-  @media (max-width: 480px) {
-    footer textarea {
-      max-width: 200px;
-    }
-    footer button {
-      padding: 5px 10px;
-    }
-  }
-  
-    
+}

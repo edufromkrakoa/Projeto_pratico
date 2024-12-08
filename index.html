@@ -5,16 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ciência sempre que possível</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Cabeçalho -->
     <header>
         <h1>Ciência &amp; Tecnologia</h1>
     </header>
-
     <!-- Conteúdo Principal -->
     <main>
-        <!-- Artigo -->
         <section>
             <div class="content-wrapper">
                 <figure>
@@ -32,24 +33,30 @@
                 </div>
             </div>
         </section>
-
-        <!-- Rodapé -->
-        <footer>
-            <div>
-                <h3>Nos siga em nossas redes</h3>
-                <div>
-                    <a href="#"><img src="./imagens/instagram.png" alt="Instagram"></a>
-                    <a href="#"><img src="./imagens/facebook.png" alt="Facebook"></a>
-                    <a href="#"><img src="./imagens/youtube.png" alt="YouTube"></a>
-                    <a href="#"><img src="./imagens/twitter.png" alt="Twitter"></a>
+        <!-- Redes Sociais e Formulário de Contato -->
+        <section class="social-contact">
+            <div class="social-section">
+                <h3>Siga-nos nas redes sociais</h3>
+                <ul class="social-links">
+                    <li><a href="#" title="Siga-nos no Instagram"><img src="./imagens/instagram.png" alt="Logo do Instagram" /></a></li>
+                    <li><a href="#" title="Siga-nos no Facebook"><img src="./imagens/facebook.png" alt="Logo do Facebook" /></a></li>
+                    <li><a href="#" title="Visite nosso canal no YouTube"><img src="./imagens/youtube.png" alt="Logo do YouTube" /></a></li>
+                    <li><a href="#" title="Siga-nos no Twitter"><img src="./imagens/twitter.png" alt="Logo do Twitter" /></a></li>
+                </ul>
+            </div>
+            <div class="contact-section">
+                <h3>Entre em contato conosco</h3>
+                <div class="contact-methods">
+                    <form>
+                        <input type="text" placeholder="Seu nome" required />
+                        <input type="email" placeholder="Seu e-mail" required />
+                        <input type="tel" placeholder="Seu telefone (opcional)" />
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
                 </div>
             </div>
-            <div>
-                <h3>Comentários</h3>
-                <textarea placeholder="Insira um comentário" required></textarea>
-                <button>Enviar</button>
-            </div>
-        </footer>
+        </section>
     </main>
 </body>
 </html>
