@@ -1,7 +1,7 @@
 # Projeto: Site Temático - Módulo 5 | EBAC (Dsenvolvedor Full Stack Python)
 
 ## 📌 Contexto
-Projeto básico desenvolvido como parte do módulo introdutório de HTML/CSS do curso Full Stack Python da EBAC. Trata-se de um exercício inicial para:
+Projeto desenvolvido como parte do módulo introdutório de HTML/CSS do curso Full Stack Python da EBAC. Trata-se de um exercício inicial para:
 - Praticar estruturação semântica com HTML
 - Aplicar estilos básicos com CSS
 - Compreender a relação entre os dois arquivos
