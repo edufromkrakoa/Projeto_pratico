@@ -6,6 +6,7 @@ Exercício prático do Módulo 5 do curso Desenvolvedor Full Stack Python da EBA
 ## 🛠️ Tecnologias Utilizadas
 ### Front-End
 - HTML5
+- CSS
 
- ### Ferramentas
+- ### Ferramentas
 - Git
