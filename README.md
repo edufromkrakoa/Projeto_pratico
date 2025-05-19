@@ -4,9 +4,6 @@
 Exercício prático do Módulo 5 do curso Desenvolvedor Full Stack Python da EBAC, onde o objetivo foi desenvolver um site temático com elementos visuais e interativos, aplicando conceitos de HTML e CSS.
 
 ## 🛠️ Tecnologias Utilizadas
-### Front-End
-- HTML5
-- CSS
-
-- ### Ferramentas
-- Git
+| Categoria       | Tecnologias/Ferramentas  |
+| **Front-End ** | HTML e CSS |
+| **Ferramentas ** | Git e VS Code |
